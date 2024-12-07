@@ -2,6 +2,13 @@ import pytest
 from unittest.mock import patch
 from io import BytesIO
 from PIL import Image
+import tkinter as tk
+from tkinter import messagebox
+import random
+from io import BytesIO
+from PIL import Image, ImageTk
+import requests
+from Git_projet.py import get_flag_image
 
 def test_get_flag_image_success():
     url = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/320px-Flag_of_France.svg.png"

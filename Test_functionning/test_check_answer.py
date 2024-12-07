@@ -1,3 +1,13 @@
+import tkinter as tk
+from tkinter import messagebox
+import random
+from io import BytesIO
+from PIL import Image, ImageTk
+import requests
+
+
+
+
 def test_check_answer_correct():
     global current_country, attempts, score
     current_country = "France"
