@@ -1,4 +1,6 @@
 import pytest
+import sys
+import os
 from unittest.mock import patch
 from io import BytesIO
 from PIL import Image
@@ -8,6 +10,7 @@ import random
 from io import BytesIO
 from PIL import Image, ImageTk
 import requests
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), 'src')))
 from Git_projet.py import get_flag_image
 
 def test_get_flag_image_success():
