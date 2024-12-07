@@ -5,3 +5,4 @@ Pillow
 requests
 random
 tkinter
+tk
