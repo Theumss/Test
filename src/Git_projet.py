@@ -3,7 +3,7 @@ from tkinter import messagebox
 import random
 from io import BytesIO
 from PIL import Image, ImageTk
-import requests
+import requestspi
 
 # Drapeaux mis � jour avec des URLs de Wikipedia (en format PNG)
 flags = {
