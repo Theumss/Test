@@ -3,5 +3,4 @@ coverage
 Gitpython
 Pillow
 requests
-tkinter
 tk
