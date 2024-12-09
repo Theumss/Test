@@ -5,6 +5,7 @@ from io import BytesIO
 from PIL import Image, ImageTk
 import requests
 
+from src.Git_projet import check_answer
 
 
 
