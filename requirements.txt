@@ -4,3 +4,5 @@ Gitpython
 Pillow
 requests
 tk
+os
+sys
