@@ -9,7 +9,7 @@ import sys
 
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
-from src.Git_projet import check_answer
+from Git_projet import check_answer
 print(sys.path)
 
 

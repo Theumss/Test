@@ -11,7 +11,7 @@ from io import BytesIO
 from PIL import Image, ImageTk
 import requests
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
-from src.Git_projet import get_flag_image
+from Git_projet import get_flag_image
 
 def test_get_flag_image_success():
     url = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/320px-Flag_of_France.svg.png"
